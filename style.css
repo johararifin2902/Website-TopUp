@@ -1,0 +1,76 @@
+/* File styles/style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-up-options,
+.payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option,
+.payment-method {
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option:hover,
+.payment-method:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-color: #4CAF50;
+}
+
+.option img,
+.payment-method img {
+    width: 80px
+}
